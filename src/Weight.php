@@ -1,15 +1,17 @@
 <?php
 
 namespace Otrsw\UnitConversions;
+use Exception;
 
 class Weight
 {
-
-
     private float $kilograms;
 
-    public static function fromKilograms(float $kilograms) : self
-    {
+    public static function fromKilograms(float $kilograms) : self {
+        $myArray = [
+            'test',            'test2',
+        ];
+
         return new static($kilograms);
     }
 
