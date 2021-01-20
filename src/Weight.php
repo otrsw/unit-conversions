@@ -4,8 +4,6 @@ namespace Otrsw\UnitConversions;
 
 class Weight
 {
-
-
     private float $kilograms;
 
     public static function fromKilograms(float $kilograms) : self
