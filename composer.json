@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "otrsw/unit-conversions",
+    "description": "Perform unit conversions",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "otrsw",
+        "unit-conversions"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/otrsw/unit-conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Heinz Seldte",
+            "email": "heinz@otrsw.com",
             "role": "Developer"
         }
     ],
@@ -24,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Otrsw\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Otrsw\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
