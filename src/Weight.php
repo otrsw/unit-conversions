@@ -6,7 +6,7 @@ class Weight
 {
 
 
-    private $kilograms;
+    private float $kilograms;
 
     public static function fromKilograms(float $kilograms) : self {
         return new static($kilograms);
